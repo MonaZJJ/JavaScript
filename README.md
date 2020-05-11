@@ -1,6 +1,7 @@
  按照PromiseA+规范写Promise的简单实现原理
  //第一步：Promise构造函数接受一个按数作为参数，该函数的两个参数分别是resolve和reject。它是两个函数，由JavaScript引擎提供，不用自己部署;
- function Promise(task){
+
+function Promise(task){
      let that = this;   //缓存this
      that.status = "pending";  //进行中的状态
      that.value = undefined;   //初始值
