@@ -1,2 +1,1 @@
 # JavaScript
-promise学习
